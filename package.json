@@ -1,0 +1,27 @@
+{
+  "name": "magic_name_magic",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magic_repo-owner_magic/magic_repo-name_magic"
+  },
+  "author": "magic_author_magic",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/magic_repo-owner_magic/magic_repo-name_magic/issues"
+  },
+  "homepage": "https://github.com/magic_repo-owner_magic/magic_repo-name_magic",
+  "jspm": {
+    "directories": {
+      "baseURL": "dist"
+    },
+    "configFile": "dist/jspm-config.js",
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.14.0"
+    },
+    "devDependencies": {
+      "typescript": "github:mhegazy/typescript@v1.5-beta2"
+    }
+  }
+}
