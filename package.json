@@ -2,6 +2,10 @@
   "name": "magic_name_magic",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "prepublish": "jspm install",
+    "start": "static dist"
+  },
   "jspm": {
     "directories": {
       "baseURL": "dist"
