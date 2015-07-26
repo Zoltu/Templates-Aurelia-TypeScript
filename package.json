@@ -15,7 +15,7 @@
       "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.14.0"
     },
     "devDependencies": {
-      "typescript": "github:mhegazy/typescript@v1.5-beta2"
+      "typescript": "npm:typescript@^1.5.3"
     }
   },
   "devDependencies": {
