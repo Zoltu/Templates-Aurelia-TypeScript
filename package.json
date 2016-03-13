@@ -12,7 +12,7 @@
     },
     "configFile": "dist/jspm-config.js",
     "dependencies": {
-      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.14.0"
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.1.4"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^1.5.3"
