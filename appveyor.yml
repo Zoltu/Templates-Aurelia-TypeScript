@@ -2,7 +2,7 @@ version: '{build}'
 clone_depth: 1
 environment:
   JSPM_GITHUB_AUTH_TOKEN:
-    secure: magic_SECURE_APPVEYOR_JSPM_GITHUB_AUTH_TOKEN_magic
+    secure: magic_secure_appveyor_jspm_github_auth_token_magic
 install:
 - npm install
 - node_modules\.bin\jspm config registries.bower.handler jspm-bower-endpoint
