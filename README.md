@@ -6,6 +6,9 @@
 
 # Maintenance
 
+## Update JSPM
+`npm install jspm`
+
 ## Update Aurelia
 `node_modules/.bin/jspm install aurelia-bootstrapper`
 
