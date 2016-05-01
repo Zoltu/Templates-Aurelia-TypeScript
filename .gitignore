@@ -1,2 +1,4 @@
 /dist/jspm_packages/
 /node_modules/
+/dist/build.js
+/dist/build.js.map
