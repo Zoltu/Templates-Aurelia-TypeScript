@@ -18,7 +18,7 @@ cache:
 - node_modules -> package.json
 - jspm_packages -> package.json
 build_script:
-- node_modules\.bin\jspm bundle source\**\*.ts + aurelia-bootstrapper + aurelia-binding + aurelia-dependency-injection + aurelia-event-aggregator + aurelia-framework + aurelia-history + aurelia-history-browser + aurelia-loader + aurelia-loader-default + aurelia-logging + aurelia-logging-console + aurelia-metadata + aurelia-pal + aurelia-pal-browser + aurelia-path + aurelia-polyfills + aurelia-route-recognizer + aurelia-router + aurelia-task-queue + aurelia-templating + aurelia-templating-binding + aurelia-templating-resources + aurelia-templating-router --minify
+- node_modules\.bin\jspm bundle source\**\*.ts + source\**\*.html!text + aurelia-bootstrapper + aurelia-binding + aurelia-dependency-injection + aurelia-event-aggregator + aurelia-framework + aurelia-history + aurelia-history-browser + aurelia-loader + aurelia-loader-default + aurelia-logging + aurelia-logging-console + aurelia-metadata + aurelia-pal + aurelia-pal-browser + aurelia-path + aurelia-polyfills + aurelia-route-recognizer + aurelia-router + aurelia-task-queue + aurelia-templating + aurelia-templating-binding + aurelia-templating-resources + aurelia-templating-router --minify
 artifacts:
 - path: dist
 deploy:

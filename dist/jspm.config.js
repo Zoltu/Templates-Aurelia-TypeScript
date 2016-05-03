@@ -2,7 +2,6 @@ SystemJS.config({
   transpiler: "plugin-typescript",
   packages: {
     "source": {
-      "format": "esm",
       "defaultExtension": "ts",
       "meta": {
         "*.ts": {
